@@ -1,0 +1,63 @@
+name: Support request
+description: Ask for help with configuration, usage, or setup
+labels: [support]
+title: "[Support]: "
+body:
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Please confirm the following
+      options:
+        - label: I searched existing issues to prevent duplicates
+          required: true
+  - type: input
+    id: related
+    attributes:
+      label: Related mod / feature
+      description: Which mod, feature, or component is involved?
+      placeholder: e.g., Sodium, World generation, Questing
+    validations:
+      required: true
+  - type: textarea
+    id: goal
+    attributes:
+      label: What do you wish to accomplish?
+      placeholder: Describe the outcome you're aiming for
+    validations:
+      required: true
+  - type: textarea
+    id: tried
+    attributes:
+      label: What have you tried so far?
+      placeholder: List steps taken, settings changed, and results
+    validations:
+      required: true
+  - type: input
+    id: modpack_version
+    attributes:
+      label: System details — Version of the modpack
+      placeholder: e.g., 1.4.2
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: System details — OS
+      placeholder: e.g., Windows 11, Ubuntu 22.04, macOS 14
+    validations:
+      required: true
+  - type: input
+    id: java
+    attributes:
+      label: System details — Java Version
+      placeholder: e.g., Temurin 17.0.11
+    validations:
+      required: true
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context (optional)
+      description: Logs, screenshots, crash reports, or any other context
+      placeholder: Paste relevant snippets or links here
+    validations:
+      required: false
