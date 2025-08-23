@@ -48,5 +48,10 @@
     "name": "🙅 wontfix",
     "description": "This will not be worked on",
     "color": "#ffffff"
+  },
+  {
+    "name": "📩 needs triage",
+    "description": "This is a new issue that needs to be triaged",
+    "color": "#d773ad"
   }
 ]
