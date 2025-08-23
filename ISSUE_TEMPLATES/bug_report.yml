@@ -1,7 +1,7 @@
 name: '🐛 Bug report'
 description: Report a problem with the modpack or included mods
-title: "[Bug]: "
-labels: ['bug']
+title: "🐛 Bug: "
+labels: ['🐛 bug', '📩 needs triage']
 body:
   - type: checkboxes
     id: confirmations
@@ -47,7 +47,7 @@ body:
     id: modpack_version
     attributes:
       label: System details — Version of the modpack
-      placeholder: e.g., 1.4.2
+      placeholder: e.g., v0.1.1-alpha
     validations:
       required: true
   - type: input
@@ -61,7 +61,7 @@ body:
     id: java
     attributes:
       label: System details — Java Version
-      placeholder: e.g., Temurin 17.0.11
+      placeholder: e.g., Temurin 17.0.11, find this in your launcher or log files.
     validations:
       required: true
   - type: textarea

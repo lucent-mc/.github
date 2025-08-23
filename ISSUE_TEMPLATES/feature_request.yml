@@ -1,7 +1,7 @@
-name: Feature request
+name: '⚡ Feature request'
 description: Suggest a new feature for the modpack
-labels: [enhancement]
-title: "[Feature]: "
+labels: ['⚡ enhancement', '📩 needs triage']
+title: "⚡ Feature: "
 body:
   - type: checkboxes
     id: confirmations
@@ -27,7 +27,7 @@ body:
     id: description
     attributes:
       label: Describe your requested feature
-      placeholder: What should it do? Include details, examples, or references
+      placeholder: What does it do? Include details, examples, or references
     validations:
       required: true
   - type: textarea
