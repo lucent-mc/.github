@@ -1,7 +1,9 @@
 name: '🐛 Bug report'
-description: Report a problem with the modpack or included mods
 title: "🐛 Bug: "
-labels: ['🐛 bug', '📩 needs triage']
+description: Report a problem with the mod pack or included mods
+type: '🐛 bug'
+labels: ['📩 needs triage ']
+assignees: ['mia-riezebos']
 body:
   - type: checkboxes
     id: confirmations

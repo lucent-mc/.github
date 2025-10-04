@@ -1,7 +1,9 @@
 name: '⚡ Feature request'
-description: Suggest a new feature for the modpack
-labels: ['⚡ enhancement', '📩 needs triage']
 title: "⚡ Feature: "
+description: Suggest a new feature for the modpack
+type: '⚡ enhancement'
+labels: ['📩 needs triage ']
+assignees: ['mia-riezebos']
 body:
   - type: checkboxes
     id: confirmations

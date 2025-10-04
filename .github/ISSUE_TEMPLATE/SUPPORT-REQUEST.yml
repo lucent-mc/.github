@@ -1,7 +1,9 @@
 name: '❔ Support request'
-description: Ask for help with configuration, usage, or setup
-labels: ['❔ question', '📩 needs triage']
 title: "❔ Support: "
+description: Ask for help with configuration, usage, or setup
+type: '❔ question'
+labels: ['📩 needs triage ']
+assignees: ['mia-riezebos']
 body:
   - type: checkboxes
     id: confirmations
