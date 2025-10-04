@@ -1,0 +1,47 @@
+name: '⚡ Feature request'
+description: Suggest a new feature for the modpack
+labels: ['⚡ enhancement', '📩 needs triage']
+title: "⚡ Feature: "
+body:
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Please confirm the following
+      options:
+        - label: I searched existing issues to prevent duplicates
+          required: true
+  - type: dropdown
+    id: feature_type
+    attributes:
+      label: Type of feature
+      description: Select the category
+      options:
+        - mod
+        - resource pack
+        - shader pack
+        - data pack
+        - other
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe your requested feature
+      placeholder: What does it do? Include details, examples, or references
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Why do you think it's a good fit for this modpack?
+      placeholder: Explain the benefits and how it aligns with the modpack goals
+    validations:
+      required: true
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context (optional)
+      description: Links, images, or other relevant context
+      placeholder: Add anything else the maintainers should know
+    validations:
+      required: false
