@@ -1,4 +1,4 @@
-name: Support request
+name: '❔ Support request'
 description: Ask for help with configuration, usage, or setup
 labels: ['❔ question', '📩 needs triage']
 title: "❔ Support: "
