@@ -1,0 +1,57 @@
+[
+  {
+    "name": "⚠️ action needed",
+    "description": "Bugs or problems that need immediate attention",
+    "color": "#B60205"
+  },
+  {
+    "name": "⚡ enhancement",
+    "description": "New feature or request",
+    "color": "#D93F0B"
+  },
+  {
+    "name": "❌ invalid",
+    "description": "This issue doesn't follow guidelines, doesn't apply to this project or doesn't fall in scope",
+    "color": "#E99695"
+  },
+  {
+    "name": "❔ question",
+    "description": "Further information is requested",
+    "color": "#C2E0C6"
+  },
+  {
+    "name": "➿ duplicate",
+    "description": "This issue or pull request already exists",
+    "color": "#5319E7"
+  },
+  {
+    "name": "🎉 good first issue",
+    "description": "Good for newcomers",
+    "color": "#3C2B9C"
+  },
+  {
+    "name": "🐛 bug",
+    "description": "Something isn't working!",
+    "color": "#0E8A16"
+  },
+  {
+    "name": "📖 documentation",
+    "description": "Improvements or additions to documentation",
+    "color": "#C5DEF5"
+  },
+  {
+    "name": "🖐️ help wanted",
+    "description": "Extra attention is needed",
+    "color": "#FBCA04"
+  },
+  {
+    "name": "🙅 wontfix",
+    "description": "This will not be worked on",
+    "color": "#ffffff"
+  },
+  {
+    "name": "📩 needs triage",
+    "description": "This is a new issue that needs to be triaged",
+    "color": "#d773ad"
+  }
+]

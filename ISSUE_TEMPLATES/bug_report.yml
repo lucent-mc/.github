@@ -1,0 +1,74 @@
+name: '🐛 Bug report'
+description: Report a problem with the modpack or included mods
+title: "🐛 Bug: "
+labels: ['🐛 bug', '📩 needs triage']
+body:
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Please confirm the following
+      options:
+        - label: I searched existing issues to prevent duplicates
+          required: true
+  - type: input
+    id: related
+    attributes:
+      label: Related mod / feature
+      description: Which mod, feature, or component is affected?
+      placeholder: e.g., Sodium, World generation, Questing
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What is the expected behaviour?
+      placeholder: Describe what you expected to happen
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What is the actual behaviour?
+      placeholder: Describe what actually happened, including any errors
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How to reproduce
+      description: Provide clear steps to reproduce the issue
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+  - type: input
+    id: modpack_version
+    attributes:
+      label: System details — Version of the modpack
+      placeholder: e.g., v0.1.1-alpha
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: System details — OS
+      placeholder: e.g., Windows 11, Ubuntu 22.04, macOS 14
+    validations:
+      required: true
+  - type: input
+    id: java
+    attributes:
+      label: System details — Java Version
+      placeholder: e.g., Temurin 17.0.11, find this in your launcher or log files.
+    validations:
+      required: true
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context (optional)
+      description: Logs, screenshots, crash reports, or any other context
+      placeholder: Paste relevant snippets or links here
+    validations:
+      required: false

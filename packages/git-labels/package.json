@@ -1,0 +1,13 @@
+{
+  "name": "@lucent-mc/git-labels",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "AGPL-3.0",
+  "packageManager": "pnpm@10.15.0"
+}
